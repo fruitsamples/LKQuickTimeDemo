@@ -1,0 +1,27 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                openMovie = id; 
+                setOpacity = id; 
+                toggleBackgroundFilter = id; 
+                toggleForegroundFilter = id; 
+                toggleFrequenceyLevels = id; 
+            }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                backgroundFilter = id; 
+                contentWindow = id; 
+                controlPanel = id; 
+                foregroundFilter = id; 
+                frequencyLevels = id; 
+                opacitySlider = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}
